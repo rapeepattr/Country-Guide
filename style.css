@@ -47,3 +47,34 @@ body {
     outline: none;
     color: #222A43;
 }
+
+#result {
+    margin-top: 1.25em;
+}
+
+.container .flag-img {
+    display: block;
+    width: 45%;
+    min-width: 7.5em;
+    margin: 1.8em auto 1.2em auto;
+}
+
+.container h2 {
+    font-weight: 600;
+    color: #222A43;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 1.8em;
+}
+
+.data-wrapper {
+    margin-bottom: 1em;
+}
+
+.container span {
+    color: #5D6274;
+}
+
+#search-btn {
+    cursor: pointer;
+}
