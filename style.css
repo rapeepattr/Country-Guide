@@ -7,10 +7,36 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #3D63E6;
+.container {
+    border-radius: 15px;
+    background-color: #025864;
 }
 
+input {
+    border: none;
+    outline: none;
+    background-color: #025864;
+    width: 500px;
+}
+
+input[type="text"] {
+    font-size: 2rem;
+    color: #fff;
+}
+
+::placeholder {
+    font-size: 2rem;
+    color: #fff;
+    opacity: 50%;
+}
+
+.search-btn {
+    background-color: #00d47e;
+    color: #025864;
+    border-radius: 10px !important;
+}
+
+/* 
 .container {
     background-color: #FFF;
     width: 80vw;
@@ -77,4 +103,4 @@ body {
 
 #search-btn {
     cursor: pointer;
-}
+} */
